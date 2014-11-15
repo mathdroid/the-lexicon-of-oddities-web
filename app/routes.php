@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
-Route::get('about', Array('uses'=>'about@index'));
+Route::get('/', 'HomeController@showWelcome');
+Route::get('about', array('as' =>'about', function(){
+	return View::make('about.index');
+}));
