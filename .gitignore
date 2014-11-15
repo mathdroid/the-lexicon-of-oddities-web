@@ -15,7 +15,7 @@
 /app/config/remote.php
 /app/config/services.php
 /app/config/session.php
-/app/config/view.phpp
+/app/config/view.php
 composer.phar
 composer.lock
 .env.*.php
