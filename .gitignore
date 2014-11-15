@@ -1,7 +1,21 @@
 /bootstrap/compiled.php
 <<<<<<< HEAD
 /vendor
+/app/config/local
+/app/config/packages
+/app/config/testing
+/app/config/workbench.php
+/app/config/app.php
+/app/config/auth.php
+/app/config/cache.php
+/app/config/compile.php
 /app/config/database.php
+/app/config/mail.php
+/app/config/queue.php
+/app/config/remote.php
+/app/config/services.php
+/app/config/session.php
+/app/config/view.phpp
 composer.phar
 composer.lock
 .env.*.php
