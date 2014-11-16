@@ -6,6 +6,7 @@ class AboutController extends BaseController {
       ->with('age','28');
     $view->location = 'Bandung';
     $view['major'] = 'Electrical Engineering';
+    $view->title = 'About the Author.';
     return $view;
   }
 }
