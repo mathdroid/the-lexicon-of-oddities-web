@@ -11,5 +11,8 @@
 |
 */
 
-Route::get('/', 'HomeController@showWelcome');
+Route::get('/', array('as'=>'home', function()
+{
+	return View::make('pages.home', array('title'=>'Muhammad Mustadi, At Your Service.'));
+}));
 Route::get('about', array('uses'=>'AboutController@get_index'));
