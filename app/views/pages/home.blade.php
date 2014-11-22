@@ -9,7 +9,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> Art<span class="light">folinesia</span>
+                    <i class="fa fa-play-circle"></i> Muhammad <span class="light">mustadi</span>
                 </a>
             </div>
 
@@ -17,10 +17,10 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Portfolio</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
