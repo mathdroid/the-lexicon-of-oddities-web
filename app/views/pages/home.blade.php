@@ -20,7 +20,7 @@
         <li><a href="#">Portfolio</a></li>
       </ul>
       <ul class="nav navbar-nav">
-        <li><a href="{{{ URL::to('blog') }}}">Blog</a></li>
+        <li><a href="{{{ URL::to('http://blog.muhammadmustadi.com') }}}">Blog</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
