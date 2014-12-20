@@ -20,7 +20,7 @@
         <li><a href="#">Portfolio</a></li>
       </ul>
       <ul class="nav navbar-nav">
-        <li><a href="#">Blog</a></li>
+        <li><a href="{{{ URL::to('blog') }}}">Blog</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
@@ -35,15 +35,13 @@
   <div class="intro-body">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1 class="brand-heading">Muhammad Mustadi</h1>
+        <div class="col-md-3">
         </div>
-        <div class="col-xs-6 col-md-6">
-          <a href="{{{ URL::to('portfolio') }}}" class="btn btn-defaults btn-lg" >Portfolio</a>
+        <div class="col-md-6">
+          <h1 class="brand-heading">Hello.</h1>
         </div>
-        <div class="col-xs-6 col-md-6">
-          <a href="{{{ URL::to('about') }}}"  class="btn btn-defaults btn-lg">About</a>
-        </div>
+<div class="col-md-3">
+</div>
       </div>
     </div>
   </div>
@@ -57,9 +55,8 @@
   </div>
 </section>
 <!-- Footer -->
-<footer>
-  <div class="container text-center">
-    <p><small>Copyright &copy; Muhammad Mustadi 2014</small></p>
-  </div>
+<footer class="footerx">
+  <p><small>Copyright &copy; Muhammad Mustadi 2014</small></p>
 </footer>
+
 @stop

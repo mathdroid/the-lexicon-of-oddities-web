@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   {{ HTML::style('css/bootstrap.css') }}
   {{ HTML::style('css/bootstrap-theme.css') }}
   {{ HTML::style('css/home.css') }}
@@ -12,10 +13,11 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     @yield('navbar')
-    
+
     @yield('content')
 
 </body>
+
 {{ HTML::script('js/jquery-1.11.0.js') }}
 {{ HTML::script('js/bootstrap.min.js') }}
 {{ HTML::script('js/jquery.easing.min.js') }}
