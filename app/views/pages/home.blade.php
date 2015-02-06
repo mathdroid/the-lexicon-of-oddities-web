@@ -20,6 +20,9 @@
         <li><a href="#">Portfolio</a></li>
       </ul>
       <ul class="nav navbar-nav">
+        <li><a href="{{{ URL::to('http://projects.muhammadmustadi.com') }}}">Projects</a></li>
+      </ul>
+      <ul class="nav navbar-nav">
         <li><a href="{{{ URL::to('http://blog.muhammadmustadi.com') }}}">Blog</a></li>
       </ul>
     </div>
@@ -59,6 +62,6 @@
   <p><small>Copyright &copy; Muhammad Mustadi 2014</small></p>
 </footer>
 
-<script type="text/javascript">var s=document.createElement("script");s.id="bornevia-chat";s.type="text/javascript";s.src="http://127.0.0.1:3000/assets/chat-iframe-builder.js?chat_api_key=c8c22b17936b2eda8e58065e&url=http://127.0.0.1:3000";document.head.appendChild(s);</script>
+<!-- <script type="text/javascript">var s=document.createElement("script");s.id="bornevia-chat";s.type="text/javascript";s.src="http://127.0.0.1:3000/assets/chat-iframe-builder.js?chat_api_key=c8c22b17936b2eda8e58065e&url=http://127.0.0.1:3000";document.head.appendChild(s);</script> -->
 
 @stop
