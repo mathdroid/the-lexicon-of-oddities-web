@@ -4,7 +4,7 @@
 
   {{ HTML::style('css/bootstrap.css') }}
   {{ HTML::style('css/bootstrap-theme.css') }}
-  {{ HTML::style('css/home.css') }}
+  {{ HTML::style('css/home-blank.css') }}
   {{ HTML::style('http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic') }}
   {{ HTML::style('http://fonts.googleapis.com/css?family=Montserrat:400,700') }}
 
