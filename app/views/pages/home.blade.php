@@ -9,7 +9,7 @@
         <i class="fa fa-bars"></i>
       </button>
       <a class="navbar-brand page-scroll" href="#page-top">
-        <i class="fa fa-play-circle"></i> Muhammad <span class="light">mustadi</span>
+        <span class="fa fa-play-circle">My name is</span> <span class="light glitch" data-text="odi">odi</span>
       </a>
     </div>
 
@@ -42,7 +42,9 @@
         <div class="col-md-3">
         </div>
         <div class="col-md-6">
-          <h1 class="brand-heading">Welcome.</h1>
+          <h1 class="brand-heading">
+            Welcome.
+          </h1>
         </div>
         <div class="col-md-3">
         </div>
