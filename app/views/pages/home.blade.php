@@ -8,7 +8,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand page-scroll" href="#page-top">
+      <a class="navbar-brand page-scroll" href="#">
         <span class="fa fa-play-circle">My name is</span> <span class="light glitch" data-text="odi">odi</span>
       </a>
     </div>
@@ -35,7 +35,7 @@
 
 @section('content')
 <!-- Intro Header -->
-<header class="intro">
+<header class="intro flat-icon">
   <div class="intro-body">
     <div class="container-fluid">
       <div class="row">
