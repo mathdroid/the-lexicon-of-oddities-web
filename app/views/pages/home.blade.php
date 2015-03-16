@@ -35,7 +35,7 @@
 
 @section('content')
 <!-- Intro Header -->
-<header class="intro flat-icon">
+<header class="intro">
   <div class="intro-body">
     <div class="container-fluid">
       <div class="row">
