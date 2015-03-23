@@ -8,16 +8,16 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand page-scroll" href="#">
+      <span class="navbar-brand page-scroll" href="#">
         <span class="fa fa-play-circle">My name is</span> <span class="light glitch" data-text="odi">odi</span>
-      </a>
+      </span>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 
       <ul class="nav navbar-nav">
-        <li><a href="{{{ URL::to('http://github.com/mathdroid') }}}" style="color:#96281b;">Portfolio</a></li>
+        <li><a href="{{{ URL::to('http://github.com/mathdroid') }}}" style="color:#96281b;">Github</a></li>
       </ul>
       <ul class="nav navbar-nav">
         <li><a href="{{{ URL::to('http://projects.muhammadmustadi.com') }}}" style="color:#cf000f;">Projects</a></li>
@@ -39,14 +39,9 @@
   <div class="intro-body">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-6">
-          <h1 class="brand-heading">
-            Welcome.
-          </h1>
-        </div>
-        <div class="col-md-3">
+        <div class="col-md-6 col-md-offset-3">
+          <img src="{{asset('img/vase.svg')}}">
+          <p></p>
         </div>
       </div>
     </div>
