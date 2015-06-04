@@ -40,8 +40,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-          <h1><a href="{{{ URL::to('http://muhammadmustadi.com/download/modulair.apk') }}}" style="color:#d91e18;">Download Modulair Client Beta</a></h1>
-          <p></p>
+          <p><h1><a href="{{{ URL::to('http://muhammadmustadi.com/download/modulair.apk') }}}">[Download Modulair Client Beta Here]</a></h1></p>
+          <p><img src="{{asset('img/vase.svg')}}"></p>
         </div>
       </div>
     </div>
