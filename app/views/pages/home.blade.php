@@ -20,10 +20,10 @@
         <li><a href="{{{ URL::to('http://github.com/mathdroid') }}}" style="color:#96281b;">Github</a></li>
       </ul>
       <ul class="nav navbar-nav">
-        <li><a href="{{{ URL::to('http://projects.muhammadmustadi.com') }}}" style="color:#cf000f;">Projects</a></li>
+        <li><a href="{{{ URL::to('http://projects.mustadi.com') }}}" style="color:#cf000f;">Projects</a></li>
       </ul>
       <ul class="nav navbar-nav">
-        <li><a href="{{{ URL::to('http://blog.muhammadmustadi.com') }}}" style="color:#d91e18;">Blog</a></li>
+        <li><a href="{{{ URL::to('http://blog.mustadi.com') }}}" style="color:#d91e18;">Blog</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
